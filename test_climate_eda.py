@@ -133,6 +133,10 @@ class TestClimateEDA(unittest.TestCase):
 
     def calculate_grade(self):
         """Calculate the grade based on passing tests"""
+        # Ensure setUpClass has run
+        if not hasattr(self, 'all_code'):
+            self.setUpClass()  # Run it manually if needed
+
         # List of all test methods
         test_methods = [method for method in dir(self) if method.startswith('test_')]
         total_tests = len(test_methods)
