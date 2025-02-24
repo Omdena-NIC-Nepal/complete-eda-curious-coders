@@ -5,6 +5,12 @@ from nbconvert.preprocessors import ExecutePreprocessor
 import re
 import pandas as pd
 import numpy as np
+import asyncio
+# Set the event loop policy to avoid warning with zmq
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+# Now can import zmq and use it without the warning
+import zmq
+
 
 class TestClimateEDA(unittest.TestCase):
     @classmethod
