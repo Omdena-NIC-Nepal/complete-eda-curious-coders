@@ -28,6 +28,7 @@ jobs:
         # Generate climate data
         jupyter nbconvert --to script climate_eda.ipynb --output climate_eda
         sed -i '/%matplotlib/d' climate_eda.py  # Remove Jupyter magic commands
+        sed -i "/get_ipython()/d" climate_eda.py  # Remove Jupyter magic commands
         python climate_eda.py
         
         # Run tests
