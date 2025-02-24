@@ -27,6 +27,7 @@ jobs:
       run: |
         # Generate climate data
         jupyter nbconvert --to script climate_eda.ipynb --output climate_data
+        sed -i '/%matplotlib/d' climate_eda.py  # Remove Jupyter magic commands
         python climate_data.py
         
         # Run tests
